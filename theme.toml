@@ -21,3 +21,7 @@ min_version = "0.1"
 # [params]
 #    ga4 = 'G-L1XM4D0M1E' #google analytics 4 ID
 #    cfa = 'b1b9f99360514f86a5f9230bfe3edb14' # cloudflare analytics id
+
+
+# icon library
+# https://fonts.google.com/icons?
