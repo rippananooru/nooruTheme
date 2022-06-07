@@ -1,0 +1,23 @@
+name = "NooruTheme"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = "my single landing page"
+homepage = "nooru.me"
+tags = []
+features = []
+min_version = "0.1"
+
+[author]
+  name = "Mohd Noor"
+  homepage = "nooru.me"
+
+
+# when use this theme set on your main config toml
+# baseURL = 'https://nooru.me'
+# languageCode = 'en-us'
+# title = 'ノール.me'
+# theme = 'nooruTheme'
+
+# [params]
+#    ga4 = 'G-L1XM4D0M1E' #google analytics 4 ID
+#    cfa = 'b1b9f99360514f86a5f9230bfe3edb14' # cloudflare analytics id

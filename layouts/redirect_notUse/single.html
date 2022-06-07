@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="nooruBlockContainer">
+
+    <header class="nooruBlockHeader">
+        
+    </header>
+
+    {{ if .Params.redirect }}
+        <h1>If you are not redirected click button below.</h1>
+        <meta http-equiv="refresh" content="2; URL= {{ .Params.redirect }}"/>
+        <a href=" {{ .Params.redirect }} ">{{ .Params.buttonName }}</a>
+    {{ end }}
+
+    {{ .Content }}
+    <br><br><hr>
+    <a href="/">Back to Home</a> 
+
+</div>
+{{ end }}

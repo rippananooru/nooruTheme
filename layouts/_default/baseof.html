@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    {{- partial "stylesheet.html" . -}}
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+
+        <main id="nooru" class="bg" role="main">
+            <div class="nooruContainer">
+
+                <div class="nooruLogo">
+                    {{- partial "logo.html" . -}}
+                </div>
+                
+                <div class="nooruContent">
+                    <div class="customScrollbar"></div>
+                    <div class="scrollableContent">
+                        {{- block "main" . }}{{- end }}
+                    </div>
+                </div>
+                {{- partial "footer.html" . -}}
+            </div>
+        </main>
+        {{- partial "scripts.html" . -}}
+        {{- partial "cloudflare-analytics.html" . -}}
+    </body>
+</html>
